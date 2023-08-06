@@ -1,0 +1,31 @@
+# 0 "D:\\CODES\\.vscode\\tasks.json"
+# 1 "D:\\CODES//"
+# 0 "<built-in>"
+# 0 "<command-line>"
+# 1 "D:\\CODES\\.vscode\\tasks.json"
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "C/C++: g++.exe build active file",
+            "command": "D:\\SOFTWARE INSTALLED\\MINGW\\mingw64\\bin\\cpp.exe",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ],
+    "version": "2.0.0"
+}
